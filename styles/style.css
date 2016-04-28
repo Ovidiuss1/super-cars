@@ -1,0 +1,44 @@
+body{
+	margin: 0;
+	overflow: hidden;
+	height: 100%;
+	clear: both;
+	width:100%;
+}
+
+#wrapper{
+	position: relative;
+	margin: 0;
+	overflow: hidden;
+	height: 100%;
+	clear: both;
+	width: 100%;
+}
+
+
+#ferrari, #lambo, #porche{
+	width: 33%;
+	border: solid black 1px;
+	height: 90vh;
+	position: relative;
+	display: inline-block;
+	margin: 0 auto;
+
+
+
+
+}
+
+#car-wrapper{
+	max-width: auto;
+	margin: 0 auto;
+	position: relative;
+}
+
+#porche{
+	right: 0px;
+}
+
+#ferrari{
+	left:0px;
+}
